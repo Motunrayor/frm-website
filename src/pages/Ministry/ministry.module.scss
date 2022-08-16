@@ -43,18 +43,12 @@
   line-height: 34px;
 }
 
-p {
-  padding-bottom: 10px;
-  line-height: 34px;
-  font-size: 18px;
-}
-
 .textItalic {
   font-weight: 600;
 }
 
 .ministryWrapper {
-  padding: 50px 0px;
+  padding: 40px 0px;text-align: justify;
   line-height: 34px;
 }
 
@@ -68,10 +62,21 @@ p {
 .heading {
   color: $main-color;
   font-size: 40px;
+  margin-bottom: 20px;
 }
 
-.ministryTextwrapper {
-  padding: 0px 50px 0px 0px;
+.ministryTextwrapper1 {
+  padding: 0px 100px 0px 0px;
+  width: 60%;
+  ul li {
+    list-style-type: decimal;
+    font-size: 18px;
+  }
+}
+
+.ministryTextwrapper2 {
+  padding: 0px 0px 0px 100px;
+  width: 60%;
   ul li {
     list-style-type: decimal;
     font-size: 18px;
@@ -79,11 +84,32 @@ p {
 }
 
 .imageContainer {
-  width: 100%;
-  height: 100%;
+  width: 35%;
   object-fit: cover;
-}
 
+  .image1{
+    width: 100%;
+    height: 100%;
+  }
+  .image2{
+    width: 100%;
+    height: 70%;
+    margin: 100px auto;
+    border-radius: 20%;
+  }
+  .image3{
+    width: 100%;
+    height: 60%;
+    margin: 100px auto;
+    border-radius: 50%;
+  }
+  .image4{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+}
+ 
 .ministryText {
   font-size: 18px;
 }
