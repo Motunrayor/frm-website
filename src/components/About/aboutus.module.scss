@@ -1,0 +1,143 @@
+@import '../../styles/color';
+@import '../..//styles/mixins';
+
+.titleSectionWrapper {
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/aboutUs.JPG');
+  text-align: center;
+  color: $white-color;
+}
+
+.titleSection {
+  background-color: rgba(16, 21, 41, 0.7);
+  height: 100vh;
+  width: 100%;
+}
+
+.titleTextWrapper {
+  padding-top: 300px;
+  color: $white-color;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.description {
+  max-width: 630px;
+  margin: 0 auto;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.whoWeAreWrapper {
+  @include flex-space-between;
+  padding: 30px 100px;
+}
+
+h2 {
+  font-size: 40px;
+  color: $common-color;
+  text-transform: capitalize;
+}
+
+.whoWeAreContainer {
+  width: 60%;
+}
+
+.imageContainer {
+  width: 30%;
+}
+
+.whoWeAreText {
+  font-size: 18px;
+  color: $grey-color;
+  text-align: justify;
+  line-height: 32px;
+}
+
+.whoWeAreSubText {
+  font-size: 20px;
+  color: $common-color;
+  font-weight: 600;
+}
+
+.subtitle {
+  color: $white-color;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitle2 {
+  color: $common-color;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+.corevaluesContainer {
+  padding: 30px 30px;
+  background-color: #d5a043;
+  color: $white-color;
+  h1 {
+    text-align: center;
+  }
+}
+
+.corevalues {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid $white-color;
+  border-radius: 8px;
+  padding: 10px 20px;
+  align-items: center;
+  width: 40%;
+  margin: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+}
+
+.titleWrap {
+  display: flex;
+}
+
+.list {
+  padding-left: 30px;
+  list-style-type: circle;
+}
+
+.icon_box {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.statementContainer {
+  background-color: $white-color;
+  margin: 50px 100px;
+  padding: 30px 50px 50px 50px;
+  border-radius: 10px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.statementList {
+  list-style-type: none;
+  padding-bottom: 10px;
+}

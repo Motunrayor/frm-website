@@ -1,0 +1,59 @@
+@import '../../../styles/color';
+@import '../../../styles/mixins';
+
+.btn {
+  border-radius: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  align-items: center;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 18px 40px;
+  display: inline-block;
+  &__primary {
+    background-color: $main-color;
+    border: 2px solid $main-color;
+    margin-top: 20px;
+    &:hover {
+      border: 2px solid $main-color;
+      background-color: transparent;
+      a {
+        color: $main-color;
+      }
+    }
+    a {
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+  &__transparent {
+    background-color: transparent;
+    border: 2px solid $main-color;
+    margin-top: 30px;
+    &:hover {
+      border: none;
+      background-color: $main-color;
+    }
+    a {
+      color: $white-color;
+      text-decoration: none;
+    }
+  }
+  &__secondary {
+    background-color: transparent;
+    border: 2px solid $main-color;
+    margin-top: 20px;
+    &:hover {
+      border: 2px solid $main-color;
+      background-color: $main-color;
+      a {
+        color: $white-color;
+      }
+    }
+    a {
+      color: $main-color;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@import '../../styles/color';
+@import '../../styles/mixins';
+
+.titleSectionWrapper {
+  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/aboutUs.JPG');
+  text-align: center;
+  color: $white-color;
+}
+
+.titleSection {
+  background-color: rgba(16, 21, 41, 0.7);
+  height: 100vh;
+  width: 100%;
+}
+
+.titleTextWrapper {
+  padding-top: 300px;
+  color: $white-color;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.description {
+  max-width: 630px;
+  margin: 0 auto;
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.ministrySection {
+  padding: 50px 100px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 34px;
+}
+
+p {
+  padding-bottom: 10px;
+  line-height: 34px;
+  font-size: 18px;
+}
+
+.textItalic {
+  font-weight: 600;
+}
+
+.ministryWrapper {
+  padding: 50px 0px;
+  line-height: 34px;
+}
+
+.ministry {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px 0px;
+}
+
+.heading {
+  color: $main-color;
+  font-size: 40px;
+}
+
+.ministryTextwrapper {
+  padding: 0px 50px 0px 0px;
+  ul li {
+    list-style-type: decimal;
+    font-size: 18px;
+  }
+}
+
+.imageContainer {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ministryText {
+  font-size: 18px;
+}

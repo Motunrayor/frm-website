@@ -1,0 +1,208 @@
+@import '../../styles/color';
+@import '../../styles/mixins';
+
+.landingPageImage {
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: 
+  // linear-gradient(to top, rgba(238, 239, 243, 0) 0%, #293150 100%),
+    url('../../assets/images/home.jpg');
+  text-align: center;
+  color: $white-color;
+}
+
+.landingPage {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(16, 21, 41, 0.6);
+  i {
+    font-size: 25px;
+  }
+}
+
+.welcomeText {
+  padding-top: 180px;
+  font-size: 40px;
+  font-weight: 600;
+  h1 {
+    font-size: 180px;
+    font-weight: 900;
+    line-height: 150px;
+  }
+}
+
+.subtitle {
+  color: $white-color;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+
+.subtitle2 {
+  color: $common-color;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.corevaluesContainer {
+  padding: 50px 30px;
+  background-color: #d5a043;
+  color: $white-color;
+  h1 {
+    text-align: center;
+  }
+}
+
+.corevalues {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  border: 1px solid $white-color;
+  border-radius: 8px;
+  padding: 20px 30px;
+  align-items: center;
+  width: 25%;
+  margin: 20px;
+  display: flex;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.icon_box {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  min-width: 50px;
+  max-width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.ministryContainer {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 5px solid $main-color;
+  border-radius: 0px 0px 130px 5px;
+  h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 20px 100px;
+    color: $common-color;
+  }
+}
+
+.ministryText {
+  padding: 10px 100px;
+  font-size: 20px;
+  border-left: 2px solid $main-color;
+  p {
+    margin-bottom: 20px;
+  }
+}
+
+.eventsContainer {
+  text-align: center;
+  padding: 50px;
+  background-color: $white-color;
+}
+
+.flierWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.description {
+  font-size: 18px;
+  color: #525a6c;
+  line-height: 32px;
+}
+
+.filerBox {
+  width: 282px;
+  height: 410px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+
+.flierImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.flierInfo {
+  font-size: 17px;
+  color: $common-color;
+  padding: 10px 0px;
+}
+
+.aboutWrapper {
+  text-align: center;
+  background-color: $white-color;
+  padding: 30px 200px 50px 200px;
+}
+
+.aboutDetails {
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.newsletterWapper {
+  padding: 50px 100px;
+  background-color: $white-color;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin: 50px 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.newsletterTextWapper {
+  color: $common-color;
+  padding-right: 30px;
+  width: 60%;
+}
+
+.formWrapper {
+  border-left: 2px solid $main-color;
+  padding: 20px 0px 20px 30px;
+  width: 40%;
+}
+
+.sacredWrapper {
+  display: flex;
+  background-color: #222632;
+  padding: 80px;
+  height: 300px;
+  color: $white-color;
+}
+
+.whiteBackground {
+  width: 40%;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: 50px;
+  }
+}
+
+.sacredTextContainer {
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+}

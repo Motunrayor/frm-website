@@ -1,0 +1,21 @@
+@import '../../../styles/color';
+
+.GalleryWrapper {
+  padding: 50px;
+//   background-color: rgb(183, 141, 238);
+}
+
+.Gallery {
+  text-align: center;
+  color: $common-color;
+}
+
+.GalleryFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+   width: 40px;
+   border: 2px solid red;
+}

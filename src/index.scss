@@ -1,0 +1,46 @@
+@import './styles/color';
+@import './styles/mixins';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f6f8;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: 15px 0;
+}
+
+.navbarContainer {
+  @include flex-space-between;
+  padding: 0.5rem 0rem;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  
+}
+.changeBackground {
+  background-color: #f3f6f8;
+  @include flex-space-between;
+  width: 100%;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  a {
+    color: $primary-color;
+  }
+}
