@@ -1,6 +1,7 @@
 import React from 'react';
 import Styles from './ministry.module.scss';
 import { Button } from '../../components/common';
+import CoupleDinner from '../../assets/images/couple-dinner.JPG';
 
 const MinistryOppurtunity = () => {
   return (
@@ -39,7 +40,7 @@ const MinistryOppurtunity = () => {
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper1}>
               <h1 className={Styles.heading}>We Seek For Intercessors</h1>
               <p className={Styles.ministryText}>
                 We seek for Intercessors who will travail in the place of prayer, faithfully raising
@@ -51,7 +52,8 @@ const MinistryOppurtunity = () => {
             </div>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image4}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/a.png?resize=600%2C613&ssl=1"
                 alt=""
               />
             </div>
@@ -59,7 +61,14 @@ const MinistryOppurtunity = () => {
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.imageContainer}>
+              <img
+                className={Styles.image2}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/b.png?fit=1427%2C1459&ssl=1"
+                alt=""
+              />
+            </div>
+            <div className={Styles.ministryTextwrapper2}>
               <h1 className={Styles.heading}>Marriage Ministry</h1>
               <p className={Styles.ministryText}>
                 Apart from preparing singles for marriage, FRM has the vision to enrich Christian
@@ -87,17 +96,11 @@ const MinistryOppurtunity = () => {
               </ul>
               <Button theme="primary">Register Here</Button>
             </div>
-            <div className={Styles.imageContainer}>
-              <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
-                alt=""
-              />
-            </div>
           </div>
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper1}>
               <h1 className={Styles.heading}>Singles’ Ministry Coordinators</h1>
               <p className={Styles.ministryText}>
                 The Online Singles’ ministry is aimed at equipping singles in making the right
@@ -125,7 +128,8 @@ const MinistryOppurtunity = () => {
             </div>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image2}
+                src="https://familyresourceministry.org/wp-content/uploads/2022/01/15.jpg"
                 alt=""
               />
             </div>
@@ -135,11 +139,12 @@ const MinistryOppurtunity = () => {
           <div className={Styles.ministry}>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image1}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Childrens-Hangout-e1643390350709.jpg?fit=1066%2C734&ssl=1"
                 alt=""
               />
             </div>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper2}>
               <h1 className={Styles.heading}>Children Ministry</h1>
               <p className={Styles.ministryText}>
                 As part of our mandate to build families, we reach out to children through the
@@ -156,7 +161,7 @@ const MinistryOppurtunity = () => {
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper1}>
               <h1 className={Styles.heading}>Social Media Outreach</h1>
               <p className={Styles.ministryText}>
                 FRM reaches out with Bible-based contents (social media posts and graphic designs)
@@ -182,7 +187,8 @@ const MinistryOppurtunity = () => {
             </div>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image3}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/2.png?resize=226%2C249&ssl=1"
                 alt=""
               />
             </div>
@@ -191,12 +197,9 @@ const MinistryOppurtunity = () => {
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
             <div className={Styles.imageContainer}>
-              <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
-                alt=""
-              />
+              <img className={Styles.image2} src={CoupleDinner} alt="" />
             </div>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper2}>
               <h1 className={Styles.heading}>Couples Dinner Planning Committees</h1>
               <p className={Styles.ministryText}>
                 FRM organizes Christian Couples’ Dinner which are theme-centered as led by the Holy
@@ -218,7 +221,7 @@ const MinistryOppurtunity = () => {
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper1}>
               <h1 className={Styles.heading}>FRM Courses</h1>
               <p className={Styles.ministryText}>
                 The ministry runs a series of small-group courses where biblical principles are
@@ -237,7 +240,8 @@ const MinistryOppurtunity = () => {
             </div>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image2}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/ACCD2019_-516-scaled.jpg?resize=768%2C512&ssl=1"
                 alt=""
               />
             </div>
@@ -245,7 +249,7 @@ const MinistryOppurtunity = () => {
         </div>
         <div className={Styles.ministryWrapper}>
           <div className={Styles.ministry}>
-            <div className={Styles.ministryTextwrapper}>
+            <div className={Styles.ministryTextwrapper1}>
               <h1 className={Styles.heading}>FRM Volunteering Service</h1>
               <p className={Styles.ministryText}>
                 The assignment that God has given FRM requires a wide range of co-labourers. More
@@ -271,13 +275,14 @@ const MinistryOppurtunity = () => {
             </div>
             <div className={Styles.imageContainer}>
               <img
-                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/Vison.jpg?resize=300%2C162&ssl=1"
+                className={Styles.image3}
+                src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/01/e.png?resize=800%2C818&ssl=1"
                 alt=""
               />
             </div>
           </div>
         </div>
-        <p>
+        <p className={Styles.ministryText}>
           <b>
             Thank you for your availability and for offering your skills without financial rewards.
             We know that our heavenly Father will reward our labour of love bountifully. God’s
