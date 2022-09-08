@@ -1,0 +1,36 @@
+@import '../../styles/color';
+@import '../../styles/mixins';
+
+.titleSectionWrapper {
+  background-size: 100%;
+  width: 100%;
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-image: url('../../assets/images/event.jpg');
+  text-align: center;
+  color: $white-color;
+}
+
+.titleSection {
+  background-color: rgba(16, 21, 41, 0.7);
+  height: 70vh;
+  width: 100%;
+}
+
+.titleTextWrapper {
+  padding-top: 300px;
+  color: $white-color;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.wrapper {
+  padding: 50px 50px;
+  font-size: 18px;
+  a {
+    color: $main-color;
+  }
+}

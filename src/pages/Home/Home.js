@@ -4,8 +4,6 @@ import Styles from './Home.module.scss';
 // import Gallery from '../../components/common/Gallery/Gallery';
 import Flier1 from '../../assets/images/Abuja2022.jpeg';
 import Flier2 from '../../assets/images/Singles21.jpeg';
-import Flier3 from '../../assets/images/Abeokuta2021.jpeg';
-import Flier4 from '../../assets/images/ParentingCourse.jpg';
 import Logo2 from '../../assets/icons/Logo.jpeg';
 import { FaCross, FaBible, FaPeopleCarry, FaPray, FaAward, FaDove } from 'react-icons/fa';
 import SubscribeForm from '../../components/Form/SubscribeForm';
@@ -108,12 +106,12 @@ const Home = () => {
             Feel free to indicate where you will like to serve.
           </p>
           <Button type="button" theme="secondary">
-            <a href="/mi">Get More info</a>
+            <a href="/ministries">Get More info</a>
           </Button>
         </div>
       </div>
       <div className={Styles.eventsContainer}>
-        <h1>Events & Programs</h1>
+        <h1>Upcoming Events</h1>
         <p className={Styles.description}>
           Don’t miss out, Join us for a refreshing moment with God.
         </p>
@@ -129,13 +127,24 @@ const Home = () => {
             </p>
           </div>
           <div className={Styles.filerBox}>
-            <img className={Styles.flierImage} src={Flier3} alt="" />
-            <p className={Styles.flierInfo}>Couples Dinner | 2:00PM | SAT | May 7, 2022.</p>
+            <img
+              className={Styles.flierImage}
+              src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/08/KCCD-2022-Dinner-flyer.jpg?resize=600%2C600&ssl=1"
+              alt=""
+            />
+            <p className={Styles.flierInfo}>Couples Dinner | 2:00PM | SAT | SEPT 24, 2022.</p>
           </div>
           <div className={Styles.filerBox}>
-            <img className={Styles.flierImage} src={Flier4} alt="" />
-            <p className={Styles.flierInfo}>Parenting Course | 2:00PM | SAT | May 7, 2022.</p>
+            <img
+              className={Styles.flierImage}
+              src="https://i0.wp.com/familyresourceministry.org/wp-content/uploads/2022/08/ILCCD-2022-Dinner-flyer.jpg?resize=600%2C600&ssl=1"
+              alt=""
+            />
+            <p className={Styles.flierInfo}>Couples Dinner | 2:00PM | SAT | OCT 15, 2022.</p>
           </div>
+        </div>
+        <div className={Styles.eventLink}>
+          <a href="/events">More</a>
         </div>
       </div>
       {/* <div>

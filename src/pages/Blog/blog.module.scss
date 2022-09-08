@@ -1,0 +1,67 @@
+@import '../../styles/color';
+@import '../../styles/mixins';
+
+.titleSection {
+  background-color: #222632;
+  height: 50vh;
+  width: 100%;
+}
+
+.titleTextWrapper {
+  padding-top: 250px;
+  color: $white-color;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 55px;
+}
+article {
+  ul {
+    padding: 0;
+  }
+}
+
+.blogListWrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: $white-color;
+  height: 100%;
+  padding: 30px;
+  margin: 50px;
+  border-radius: 5px;
+  list-style-type: none;
+
+  h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+  a {
+    color: $main-color;
+    text-decoration: none;
+  }
+}
+
+.blogImage {
+  width: 25%;
+  height: 200px;
+  object-fit: contain;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.blogContent {
+  width: 70%;
+}
+span {
+  font-size: 15px;
+  color: #525a6c;
+  line-height: 32px;
+}
+.content {
+  font-size: 17px;
+  margin: 20px 0px;
+}

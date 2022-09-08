@@ -148,6 +148,14 @@
   padding: 10px 0px;
 }
 
+.eventLink {
+  float: right;
+  a {
+    color: $main-color;
+    font-size: 18px;
+  }
+}
+
 .aboutWrapper {
   text-align: center;
   background-color: $white-color;
@@ -186,7 +194,7 @@
 .sacredWrapper {
   display: flex;
   background-color: #222632;
-  padding: 80px;
+  padding: 50px 80px;
   height: 300px;
   color: $white-color;
 }

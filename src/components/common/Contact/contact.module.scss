@@ -3,18 +3,20 @@
 .ContactWrapper {
   background-color: $common-color;
   padding: 40px;
-
+  h1 {
+    margin: 5px 0px;
+  }
   a {
-   color: $white-color;
+    color: $white-color;
   }
 }
 
 .Contact {
-   text-align: center;
-   width: 700px;
-   color: $white-color;
-   font-weight: 400;
-   font-size: 19px;
-   line-height: 50px;
-   margin: auto;
+  text-align: center;
+  width: 700px;
+  color: $white-color;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 50px;
+  margin: auto;
 }
