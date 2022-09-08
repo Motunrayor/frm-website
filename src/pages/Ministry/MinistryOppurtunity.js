@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Styles from './ministry.module.scss';
 import { Button } from '../../components/common';
 import CoupleDinner from '../../assets/images/couple-dinner.JPG';
+import MinistryFormModal from '../../container/modal/MinistryFormModal';
 
 const MinistryOppurtunity = () => {
+  const [openMinistryModal, setMinistryModal] = useState(false);
   return (
     <div>
       <div className={Styles.titleSectionWrapper}>
@@ -48,7 +50,9 @@ const MinistryOppurtunity = () => {
                 called FRM to do. This will be done privately and corporately at our virtual prayer
                 meeting every Tuesday night.
               </p>
-              <Button theme="primary">Register Here</Button>
+              <Button onClick={() => setMinistryModal(true)} theme="primary">
+                Register Here
+              </Button>
             </div>
             <div className={Styles.imageContainer}>
               <img
@@ -290,6 +294,9 @@ const MinistryOppurtunity = () => {
           </b>
         </p>
       </div>
+      {openMinistryModal && (
+        <MinistryFormModal isOpen={openMinistryModal} onClick={() => setMinistryModal(false)} />
+      )}
     </div>
   );
 };

@@ -1,0 +1,38 @@
+@import '../../styles/color';
+@import '../../styles/mixins';
+
+.titleSectionWrapper {
+  width: 100%;
+  height: 350px;
+  background-color: $common-color;
+  text-align: center;
+  color: $white-color;
+}
+
+.titleSection {
+  padding-top: 200px;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.givingSectionWrapper {
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  .givingSection {
+    width: 60%;
+    text-align: justify;
+  }
+
+  .givingImage {
+    width: 30%;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  p {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+}
